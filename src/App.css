@@ -1,0 +1,72 @@
+ /* General Layout */
+ 
+ .app {
+     display: flex;
+ }
+ 
+ .sidebar {
+     width: 200px;
+     background-color: #333;
+     color: white;
+     padding: 20px;
+ }
+ 
+ .sidebar h2 {
+     margin-bottom: 20px;
+ }
+ 
+ .sidebar ul {
+     list-style-type: none;
+     padding: 0;
+ }
+ 
+ .sidebar ul li {
+     margin-bottom: 10px;
+ }
+ 
+ .sidebar ul li a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .content {
+     padding: 20px;
+     width: 100%;
+ }
+ /* Dashboard */
+ 
+ .dashboard .widgets {
+     display: flex;
+     gap: 20px;
+ }
+ /* Leads */
+ 
+ .leads table {
+     width: 100%;
+     border-collapse: collapse;
+ }
+ 
+ .leads table,
+ .leads th,
+ .leads td {
+     border: 1px solid #ddd;
+ }
+ 
+ .leads th,
+ .leads td {
+     padding: 8px;
+ }
+ 
+ .leads th {
+     background-color: #f2f2f2;
+ }
+ /* Analytics */
+ 
+ .analytics {
+     padding: 20px;
+ }
+ /* Reports */
+ 
+ .reports button {
+     padding: 10px 20px;
+ }
